@@ -42,11 +42,12 @@ Notebook içerisinde, modelin hangi rakamları neden karıştırdığına dair b
 * **Veri Önişleme:** İkili (binary) formattaki MNIST verilerinin NumPy dizilerine dönüştürülmesi ve 0-1 arasına normalize edilmesi.
 
 ## 🚀 Kurulum ve Çalıştırma
-1.  Gerekli kütüphaneleri yükleyin(büyük bir olasılıkla yüklüdür.):
+1.  Bu kodu çalıştırmak için MNIST veri setini [buradan](https://www.kaggle.com/datasets/hojjatk/mnist-dataset?resource=download) indirip ana dizine atın
+2.  Gerekli kütüphaneleri yükleyin(büyük bir olasılıkla yüklüdür.):
     ```bash
     pip install numpy matplotlib
     ```
-2.  `mnist_mlp.ipynb` dosyasını Jupyter Notebook ortamında açın ve hücreleri sırasıyla çalıştırın.
+3.  `mnist_mlp.ipynb` dosyasını Jupyter Notebook ortamında açın ve hücreleri sırasıyla çalıştırın.
 
 ---
 *Bu çalışma, yapay zekanın arkasındaki matematiksel temelleri anlama ve bu teorik bilgiyi pratik koda dökme yolculuğumun bir parçasıdır.*
